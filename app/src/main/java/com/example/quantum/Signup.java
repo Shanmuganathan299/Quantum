@@ -14,12 +14,12 @@ public class Signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-        Button register_signup=(Button)findViewById(R.id.register_signup);
-        register_signup.setOnClickListener(new View.OnClickListener() {
+        Button signup_register=(Button)findViewById(R.id.signup_register);
+        signup_register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText email=(EditText)findViewById(R.id.email);
-                EditText mobileno=(EditText)findViewById(R.id.mobileno);
+                EditText email_register=(EditText)findViewById(R.id.email_register);
+                EditText mobileno_register=(EditText)findViewById(R.id.mobileno_register);
 
             }
         });

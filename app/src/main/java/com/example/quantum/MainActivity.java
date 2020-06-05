@@ -13,16 +13,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button login_home=(Button)findViewById(R.id.login_home);
-        Button signup_home=(Button)findViewById(R.id.signup_home);
-        signup_home.setOnClickListener(new View.OnClickListener() {
+        Button signup_register=(Button)findViewById(R.id.signup_register);
+        Button register_home=(Button)findViewById(R.id.register_home);
+        register_home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent StartIntent=new Intent(getApplicationContext(),Signup.class);
                 startActivity(StartIntent);
             }
         });
-        login_home.setOnClickListener(new View.OnClickListener() {
+        signup_register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent StartIntent=new Intent(getApplicationContext(),Login.class);
