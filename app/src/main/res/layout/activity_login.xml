@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LOGIN"
-        android:layout_marginTop="20"
+        android:layout_marginTop="20dp"
         android:textColor="@color/txtcolor"
         android:gravity="center"
         android:textSize="30dp" />
